@@ -50,6 +50,11 @@ class Paths
 		return file('images/$key.png');
 	}
 
+	inline static public function video(key:String)
+	{
+		return file('videos/$key.mp4');
+	}
+
 	inline static public function font(key:String)
 	{
 		return file('fonts/$key');
